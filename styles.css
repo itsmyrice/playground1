@@ -1,0 +1,58 @@
+@import "global.css";
+
+.navbar {
+    background-color: #F4C2C2;
+    border: 1px solid var(--sixth-color);
+    box-shadow: 1px 4px 5px var(--sixth-color);
+    margin-bottom: 3rem;
+    position: sticky;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--seventh-color);
+}
+
+article {
+    border-top: 2px solid var(--fifth-color);
+    box-shadow: 1px 4px 5px var(--sixth-color);
+    margin-bottom: 4rem;
+}
+
+.hero1 {
+    border: 1px solid var(--sixth-color);
+    background-color: var(--seventh-color);
+  height: 36rem;
+  width: 40rem;
+  color: var(--light-color);
+  
+}
+
+.flower1 {
+    height: 28rem;  
+    margin-left: 10.5rem; 
+    margin-top: 4rem;
+}
+
+.hero, .flower1 {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.flower1, .flower2, .flower3, .flower4 {
+    box-shadow: 1px 4px 5px var(--light-color);
+}
