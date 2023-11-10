@@ -1,12 +1,17 @@
 @import "global.css";
 
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;   
+}
+
 .navbar {
     background-color: #F4C2C2;
     border: 1px solid var(--sixth-color);
     box-shadow: 1px 4px 5px var(--sixth-color);
-    margin-bottom: 3rem;
-    position: sticky;
-
+    margin-bottom: 3rem;   
 }
 
 nav ul {
@@ -25,10 +30,15 @@ li a {
     color: var(--seventh-color);
 }
 
-article {
+li a:hover {
+    opacity: 0.5;
+}
+
+.hero {
     border-top: 2px solid var(--fifth-color);
     box-shadow: 1px 4px 5px var(--sixth-color);
     margin-bottom: 4rem;
+    margin-top: 8rem;
 }
 
 .hero1 {
